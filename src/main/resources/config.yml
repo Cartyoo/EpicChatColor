@@ -1,0 +1,13 @@
+messages:
+  does-not-own-color: '&cYou do not own the ChatColor %color%'
+  does-not-own-modifier: '&cYou do not own the Modifier %modifier%'
+  set-chatcolor: '&aYour ChatColor has been set to %color%'
+  set-modifier: '&aYour Modifier has been set to %modifier%'
+
+chat-format-enabled: true
+
+colored-chat-format: '%prefix% %player%&f: %modifier%%chatcolor%%message%' # Message WILL be chat colored
+default-chat-format: '%prefix% %player%&7: %modifier%%chatcolor%%message%' # Message will NOT be chat colored
+
+chatcolor-gui-name: '&aC&bH&eA&8T &6C&3O&2L&rO&4R'
+modifiers-gui-name: '&cCHAT &4MODIFIERS'

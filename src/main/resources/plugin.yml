@@ -1,0 +1,5 @@
+name: EpicChatColor
+version: '${project.version}'
+main: xyz.herberto.epicchatcolor.EpicChatColor
+api-version: '1.19'
+softdepend: [PlaceholderAPI, LuckPerms]
