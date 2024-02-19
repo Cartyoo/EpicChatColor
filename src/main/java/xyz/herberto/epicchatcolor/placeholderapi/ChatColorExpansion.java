@@ -40,7 +40,12 @@ public class ChatColorExpansion extends PlaceholderExpansion {
         if(params.equalsIgnoreCase("chatcolor")) {
             return String.valueOf(ChatColor.valueOf(data.getChatColorString()));
         } else if(params.equalsIgnoreCase("modifier")) {
-            return String.valueOf(ChatColor.valueOf(data.getModifierString()));
+            //return String.valueOf(ChatColor.valueOf(data.getModifierString()));
+            if(data.getModifier() == ChatColor.RESET) {
+                return "";
+            } else {
+                return String.valueOf(ChatColor.valueOf(data.getModifierString()));
+            }
         } else if(params.equalsIgnoreCase("chatcolor_text")) {
             return data.getChatColorString();
         } else if(params.equalsIgnoreCase("modifier_text")) {

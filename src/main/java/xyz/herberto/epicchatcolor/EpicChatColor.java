@@ -7,7 +7,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import xyz.herberto.epicchatcolor.commands.ChatColorCommand;
 import xyz.herberto.epicchatcolor.listeners.InventoryClickListener;
 import xyz.herberto.epicchatcolor.listeners.JoinQuitListener;
-import xyz.herberto.epicchatcolor.listeners.PlayerChatListener;
 import xyz.herberto.epicchatcolor.placeholderapi.ChatColorExpansion;
 import xyz.herberto.epicchatcolor.utils.ConfigFile;
 
@@ -39,9 +38,6 @@ public final class EpicChatColor extends JavaPlugin {
         ).forEach(manager::registerCommand);
 
         this.getServer().getPluginManager().registerEvents(new JoinQuitListener(), this);
-        if(this.getConfig().getBoolean("chat-format-enabled")) {
-            this.getServer().getPluginManager().registerEvents(new PlayerChatListener(), this);
-        }
         this.getServer().getPluginManager().registerEvents(new InventoryClickListener(), this);
 
 
