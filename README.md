@@ -20,4 +20,4 @@ You can use the following placeholders with PlaceholderAPI:
 
 ## COMPILING
 Compile EpicChatColor by doing the following command:
-    ```mvn install```
+`mvn install`
