@@ -3,11 +3,11 @@ EpicChatColor is a Minecraft plugin designed for servers on 1.19.4 and above.
 
 ## FEATURES
 `/chatcolor` GUI
---
+
 `/chatcolor <COLOR> [PLAYER]`
---
+
 `/modifier` GUI
---
+
 `/modifier <MODIFIER> [PLAYER]`
 
 ## PLACEHOLDERS
