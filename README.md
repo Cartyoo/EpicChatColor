@@ -1,5 +1,5 @@
 # EpicChatColor
-> EpicChatColor is a Minecraft plugin designed for servers on 1.19.4 and above.
+EpicChatColor is a Minecraft plugin designed for servers on 1.19.4 and above.
 
 ## FEATURES
 `/chatcolor` GUI
